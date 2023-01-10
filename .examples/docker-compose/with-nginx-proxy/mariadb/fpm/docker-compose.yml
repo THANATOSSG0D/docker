@@ -38,9 +38,9 @@ services:
     volumes:
       - nextcloud:/var/www/html:ro
     environment:
-      - VIRTUAL_HOST=
-      - LETSENCRYPT_HOST=
-      - LETSENCRYPT_EMAIL=
+      - VIRTUAL_HOST=thanatoss.next.cloudd.org
+      - LETSENCRYPT_HOST=thanatoss.next.cloudd.org
+      - LETSENCRYPT_EMAIL=afazolo316@gmail.com
     depends_on:
       - app
     networks:
